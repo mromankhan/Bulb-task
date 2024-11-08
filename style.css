@@ -1,0 +1,76 @@
+* {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* light box started */
+.Bulb-Box {
+    /* border: 2px solid black; */
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+
+/* light box ended */
+
+/* button box started */
+.Buttons-Box {
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 150px;
+    left: 560px;
+}
+
+/* button box ended */
+
+/* on button styling started */
+.On-Button {
+
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 4px #666;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.On-Button:hover {
+    background-color: #007B9e;
+}
+
+.On-Button:active {
+    background-color: #007B9E;
+    box-shadow: 0 2px #444;
+    transform: translateY(2px);
+}
+
+/* on button styling ended */
+
+/* off button styling started */
+.Off-Button {
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 4px #666;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Off-Button:hover {
+    background-color: #007B9e;
+}
+
+.Off-Button:active {
+    background-color: #007B9E;
+    box-shadow: 0 2px #444;
+    transform: translateY(2px);
+}
+
+/* off button styling ended */
